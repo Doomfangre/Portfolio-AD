@@ -1,3 +1,22 @@
 body {
     background-color: #123524;
+    text-align: center;
+    color: white;
+}
+
+section {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Jersey 10", sans-serif;
+}
+
+.berg {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-image: url(berg.gif);
+    height: 100px;
+    width: 1900px;
+    position: fixed;
+    
 }
