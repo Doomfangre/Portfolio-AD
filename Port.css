@@ -1,12 +1,23 @@
-body {
-    background-color: #123524;
-    text-align: center;
-    color: white;
+h4 {
+    font-size: 50px;
+    text-align: left;  
+    text-indent: 30px;
 }
 
 h1 {
-    font-family: "Jersey 10", sans-serif;
-    
+   font-family: "Jersey 10", sans-serif; 
+}
+
+p {
+    font-size: 40px;
+    text-align: left;
+    margin-right: 50%;
+}
+
+body {
+    background-color: #07140e;
+    text-align: center;
+    color: white;
 }
 
 section {
@@ -27,6 +38,7 @@ section {
 
 .bottom {
     background-color: rgb(0, 77, 192);
-    width: 1900;
-    height: 150px;
+    width: 95rem;
+    height: 50px;
+    padding: 10%;
 }
