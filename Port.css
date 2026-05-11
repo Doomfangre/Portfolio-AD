@@ -6,7 +6,6 @@ h4 {
     text-align: left;  
     text-indent: 30px;
     margin-right: 100%;
-
 }
 
 a {
@@ -28,8 +27,18 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.f {
+    right: 20%;
+    left: 20%;
+    opacity: 0.1;
+    position: fixed;
+    height: 1000px;
+    width: 1000px;
+}
+
 body {
     background-color: #07140e;
+    
     text-align: center;
     color: white;
 }
