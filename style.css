@@ -4,60 +4,124 @@ body {
     color: white;
 }
 
-.s2 {
+#s2 {
     background-image: url(spike2.png);
-    background-size:;
     height: 150px;
-    width: 99px;
+    width: 100%;
     display: flex;
-    justify-self: center;
     position: fixed;
     animation-name: bite2;
-    animation-duration: 01s;
+    animation-duration: 010s;
     animation-fill-mode: forwards;
 }
 
 @keyframes bite2 {
     75% {
-        transform: translateY(184%);
+    transform: translateY(-484%);
     }
 
     85% {
-        transform: translateY(180%);
+    transform: translateY(-480%);
     }
 
     100% {
-        transform: translateY(185%);
+    transform: translateY(-485%);
     }
 }
 
-.s1 {
+@keyframes bite22 {
+    75% {
+        transform: translateY(484%);
+    }
+    
+    85% {
+        transform: translateY(480%);
+    }
+    
+    100% {
+        transform: translateY(485%);
+    }
+}
+
+#s1 {
     background-image: url(spike1.png);
     height: 150px;
-    width: 99px;
+    width: 100%;
     display: flex;
-    justify-self: center;
     position: fixed;
     animation-name: bite1;
-    animation-duration: 01s;
+    animation-duration: 010s;
     animation-fill-mode: forwards;
 }
 
 @keyframes bite1 {
     75% {
-        transform: translateY(-484%);
+        transform: translateY(484%);
     }
 
     85% {
-        transform: translateY(-480%);
+        transform: translateY(480%);
     }
 
     100% {
-        transform: translateY(-485%);
+        transform: translateY(485%);
     }
 
 }
 
+#grey1 {
+    position: fixed;
+    background-color: #666;
+    width: 100%;
+    height: 1000px;
+    transform: translateY(190px);
+    animation-name: grey11;
+    animation-duration: 010s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grey11 {
+    75% {
+        transform: translateY(84%);
+    }
+
+    85% {
+        transform: translateY(80%);
+    }
+
+    100% {
+        transform: translateY(85%);
+    }
+
+}
+
+#grey2 {
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    background-color: #666;
+    width: 100%;
+    height: 1000px;
+    transform: translateY(-990px);
+    animation-name: grey22;
+    animation-duration: 010s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grey22 {
+    75% {
+        transform: translateY(-164%);
+    }
+
+    85% {
+        transform: translateY(-160%);
+    }
+
+    100% {
+        transform: translateY(-165%);
+    }
+
+}
 
 h1 {
     font-size: 100px;
@@ -87,12 +151,12 @@ section {
     grid-template-rows: 1fr;
     background-image: url(berg.gif);
     height: 100px;
-    width: 1900px;
+    width: 100%;
     margin-top: 273px;
 }
 
 .bottom {
     background-color: rgb(0, 77, 192);
-    width: 1900;
+    width: 100%;
     height: 150px;
 }

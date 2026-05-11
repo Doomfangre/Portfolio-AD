@@ -20,6 +20,116 @@ h1 {
    text-shadow: -1px -1px 0 #2f00ff, 1px -1px 0 #003cff, -1px 1px 0 #a00000, 1px 1px 0 #d60000;
 }
 
+#s2 {
+    background-image: url(spike2.png);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    position: fixed;
+    
+
+    animation-name: bite2;
+    animation-duration: 010s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes bite2 {
+    75% {
+    transform: translateY(-484%);
+}
+
+85% {
+    transform: translateY(-480%);
+}
+
+100% {
+    transform: translateY(-485%);
+}
+}
+
+#s1 {
+    background-image: url(spike1.png);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    position: fixed;
+    animation-name: bite1;
+    animation-duration: 010s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bite1 {
+    75% {
+        transform: translateY(484%);
+    }
+
+    85% {
+        transform: translateY(480%);
+    }
+
+    100% {
+        transform: translateY(485%);
+    }
+
+}
+
+#grey1 {
+    position: fixed;
+    background-color: #666;
+    width: 100%;
+    height: 1000px;
+    transform: translateY(190px);
+    animation-name: grey11;
+    animation-duration: 010s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grey11 {
+    75% {
+        transform: translateY(84%);
+    }
+
+    85% {
+        transform: translateY(80%);
+    }
+
+    100% {
+        transform: translateY(85%);
+    }
+
+}
+
+#grey2 {
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    background-color: #666;
+    width: 100%;
+    height: 1000px;
+    transform: translateY(-990px);
+    animation-name: grey22;
+    animation-duration: 010s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grey22 {
+    75% {
+        transform: translateY(-164%);
+    }
+
+    85% {
+        transform: translateY(-160%);
+    }
+
+    100% {
+        transform: translateY(-165%);
+    }
+
+}
+
 p {
     font-size: 40px;
     text-align: left;
