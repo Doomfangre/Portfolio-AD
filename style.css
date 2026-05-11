@@ -4,9 +4,75 @@ body {
     color: white;
 }
 
+.s2 {
+    background-image: url(spike2.png);
+    background-size:;
+    height: 150px;
+    width: 99px;
+    display: flex;
+    justify-self: center;
+    position: fixed;
+    animation-name: bite2;
+    animation-duration: 01s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bite2 {
+    75% {
+        transform: translateY(184%);
+    }
+
+    85% {
+        transform: translateY(180%);
+    }
+
+    100% {
+        transform: translateY(185%);
+    }
+}
+
+.s1 {
+    background-image: url(spike1.png);
+    height: 150px;
+    width: 99px;
+    display: flex;
+    justify-self: center;
+    position: fixed;
+    animation-name: bite1;
+    animation-duration: 01s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bite1 {
+    75% {
+        transform: translateY(-484%);
+    }
+
+    85% {
+        transform: translateY(-480%);
+    }
+
+    100% {
+        transform: translateY(-485%);
+    }
+
+}
+
+
 h1 {
-    font-family: "Jersey 10", sans-serif;
-    
+    font-size: 100px;
+    font-family: "Jacquard 12", sans-serif;
+    text-shadow: -1px -1px 0 #2f00ff, 1px -1px 0 #003cff, -1px 1px 0 #a00000, 1px 1px 0 #d60000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 section {
