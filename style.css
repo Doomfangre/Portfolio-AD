@@ -11,7 +11,7 @@ body {
     display: flex;
     position: fixed;
     animation-name: bite2;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -29,18 +29,8 @@ body {
     }
 }
 
-@keyframes bite22 {
-    75% {
-        transform: translateY(484%);
-    }
-    
-    85% {
-        transform: translateY(480%);
-    }
-    
-    100% {
-        transform: translateY(485%);
-    }
+#s2.is-reversed {
+  animation-direction: reverse;
 }
 
 #s1 {
@@ -50,7 +40,7 @@ body {
     display: flex;
     position: fixed;
     animation-name: bite1;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -69,6 +59,10 @@ body {
 
 }
 
+#s1.is-reversed {
+  animation-direction: reverse;
+}
+
 #grey1 {
     position: fixed;
     background-color: #666;
@@ -76,7 +70,7 @@ body {
     height: 1000px;
     transform: translateY(190px);
     animation-name: grey11;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -95,6 +89,10 @@ body {
 
 }
 
+#grey1.is-reversed {
+  animation-direction: reverse;
+}
+
 #grey2 {
     margin: 0%;
     padding: 0%;
@@ -104,7 +102,7 @@ body {
     height: 1000px;
     transform: translateY(-990px);
     animation-name: grey22;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -123,13 +121,17 @@ body {
 
 }
 
+#grey2.is-reversed {
+  animation-direction: reverse;
+}
+
 h1 {
     font-size: 100px;
     font-family: "Jacquard 12", sans-serif;
     text-shadow: -1px -1px 0 #2f00ff, 1px -1px 0 #003cff, -1px 1px 0 #a00000, 1px 1px 0 #d60000;
 }
 
-a {
+.topper {
     color: #fff;
     text-decoration: none;
     font-size: 50px;
@@ -159,4 +161,74 @@ section {
     background-color: rgb(0, 77, 192);
     width: 100%;
     height: 150px;
+}
+
+
+
+
+
+
+
+.resume {
+    display: flex;
+    justify-content: center;
+}
+
+.backg {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(21, 172, 121);
+    width: 900px;
+    height: 1000px;
+}
+
+.header {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(5, 49, 36);
+    width: 850px;
+    height: 150px;
+    text-decoration-color: black;
+}
+
+.light {
+    font-size: 20px;
+    text-shadow: none;
+    color: black;
+    border: 2px solid #123524;
+    background-color: rgb(192, 247, 228);
+    width: 225px;
+    height: 700px;
+    transform: translate(500px, -800px);
+}
+
+span {
+    font-size: 30px;
+}
+
+ul {
+    margin-right: 200px;
+    text-align: left;
+    text-shadow: none;
+    color: black;
+    font-size: 30px;
+}
+
+li {
+    font-size: 20px;
+}
+
+.school {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cont {
+    transform: translateY(10px);
+    color:#fff;
+    background-color: #123524;
+    height: 200px;
+    width: 500px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
 }

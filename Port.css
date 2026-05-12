@@ -1,3 +1,5 @@
+@layer {
+
 h4 {
     font-family: "Jersey 10", sans-serif;
     font-size: 50px;
@@ -25,28 +27,28 @@ h1 {
     height: 150px;
     width: 100%;
     display: flex;
-    justify-self: center;
     position: fixed;
-    
-
     animation-name: bite2;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
-
 }
 
 @keyframes bite2 {
     75% {
     transform: translateY(-484%);
-}
+    }
 
-85% {
+    85% {
     transform: translateY(-480%);
+    }
+
+    100% {
+    transform: translateY(-485%);
+    }
 }
 
-100% {
-    transform: translateY(-485%);
-}
+#s2.is-reversed {
+  animation-direction: reverse;
 }
 
 #s1 {
@@ -54,10 +56,9 @@ h1 {
     height: 150px;
     width: 100%;
     display: flex;
-    justify-self: center;
     position: fixed;
     animation-name: bite1;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -76,6 +77,10 @@ h1 {
 
 }
 
+#s1.is-reversed {
+  animation-direction: reverse;
+}
+
 #grey1 {
     position: fixed;
     background-color: #666;
@@ -83,7 +88,7 @@ h1 {
     height: 1000px;
     transform: translateY(190px);
     animation-name: grey11;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -102,6 +107,10 @@ h1 {
 
 }
 
+#grey1.is-reversed {
+  animation-direction: reverse;
+}
+
 #grey2 {
     margin: 0%;
     padding: 0%;
@@ -111,7 +120,7 @@ h1 {
     height: 1000px;
     transform: translateY(-990px);
     animation-name: grey22;
-    animation-duration: 010s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -130,6 +139,10 @@ h1 {
 
 }
 
+#grey2.is-reversed {
+  animation-direction: reverse;
+}
+
 p {
     font-size: 40px;
     text-align: left;
@@ -137,14 +150,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.f {
-    right: 20%;
-    left: 20%;
-    opacity: 0.1;
-    position: fixed;
-    height: 1000px;
-    width: 1000px;
-}
+
 
 body {
     background-color: #07140e;
@@ -182,4 +188,26 @@ section {
     width: 100%;
     height: 50px;
     
+}
+
+.topper {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+}
+}
+
+
+
+
+.f {
+    transform: translateX( 75px);
+    display: flex;
+    justify-content: center;
+    right: 20%;
+    left: 20%;
+    opacity: 0.1;
+    position: fixed;
+    height: 1000px;
+    width: 1000px;
 }
