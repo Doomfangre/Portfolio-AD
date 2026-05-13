@@ -121,6 +121,11 @@ background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%,
 
 }
 
+ul {
+    color: white;
+    font-size: large;
+}
+
 #grey2.is-reversed {
   animation-direction: reverse;
 }
@@ -133,8 +138,6 @@ h1 {
 
 h2 {
     font-family: sans-serif;
-    color: rgb(66, 0, 128);
-    text-shadow: -1px -1px 0 #00ff4c, 1px -1px 0 #00ff9d, -1px 1px 0 #a00000, 1px 1px 0 #d60000;
 }
 
 .topper {
@@ -242,10 +245,10 @@ span {
 }
 
 ul {
-    margin-right: 200px;
+    margin-right: 50%;
     text-align: left;
     text-shadow: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 30px;
 }
 

@@ -1,5 +1,10 @@
 @layer {
 
+    a {
+        text-align: center;
+        
+    }
+
 h4 {
     font-family: "Jersey 10", sans-serif;
     font-size: 50px;
@@ -8,6 +13,11 @@ h4 {
     text-align: left;  
     text-indent: 30px;
     margin-right: 100%;
+}
+.rt {
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
 }
 
 a {
@@ -193,15 +203,3 @@ section {
 
 
 
-
-.f {
-    transform: translateX( 75px);
-    display: flex;
-    justify-content: center;
-    right: 20%;
-    left: 20%;
-    opacity: 0.1;
-    position: fixed;
-    height: 1000px;
-    width: 1000px;
-}
