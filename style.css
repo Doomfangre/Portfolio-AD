@@ -237,11 +237,15 @@ section {
     background-color: rgb(192, 205, 247);
     width: 225px;
     height: 700px;
-    transform: translate(500px, -800px);
+    transform: translate(500px, -700px);
 }
 
 span {
     font-size: 30px;
+}
+
+.tt {
+    margin: none;
 }
 
 ul {
