@@ -23,7 +23,6 @@ h1 {
 }
 
 #s2 {
-    visibility: hidden;
     background-image: url(spike2.png);
     height: 150px;
     width: 100%;
@@ -53,7 +52,6 @@ h1 {
 }
 
 #s1 {
-    visibility: hidden;
     background-image: url(spike1.png);
     height: 150px;
     width: 100%;
@@ -84,7 +82,6 @@ h1 {
 }
 
 #grey1 {
-    visibility: hidden;
     position: fixed;
     background-color: #666;
     width: 100%;
@@ -115,7 +112,6 @@ h1 {
 }
 
 #grey2 {
-    visibility: hidden;
     margin: 0%;
     padding: 0%;
     position: fixed;
@@ -157,9 +153,9 @@ p {
 
 
 body {
-    background-image: url(space.gif);
-    background-color: rgba(9, 65, 114);
-    opacity: .5;
+    background: #020024;
+background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 191, 255, 1) 100%);    text-align: center;
+    color: rgb(255, 255, 255);
     text-align: center;
     color: white;
 }
